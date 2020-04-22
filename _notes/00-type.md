@@ -28,6 +28,14 @@
   0 == ''              // true
   null == undefined    // true
 ```
+判断属性是否存在
+```
+  let obj = {}
+
+  if(obj.a == null)   // Equals to obj.a === null || obj.a === undefined
+```
+
+
 - if语句
 ```
   let b = 100
@@ -47,11 +55,4 @@
 
   console.log(!!100)            // true
 ```
-
-
-
-- window.onload vs DOMContnetLoaded
-浏览器渲染
-
-- require.js
 
