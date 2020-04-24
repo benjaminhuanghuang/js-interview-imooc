@@ -10,3 +10,14 @@ function forEach(obj, fn) {
     }
   }
 }
+
+
+let arr = [1, 2, 3]
+forEach(arr, (index, item)=>{
+  console.log(index, item)
+})
+
+let obj ={x:100, y:200}
+forEach(obj, (key, val)=>{
+  console.log(key, val)
+})
